@@ -10,3 +10,11 @@ vim.api.nvim_set_keymap("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", {})
 vim.api.nvim_set_keymap("n", "<C-b>", "<cmd>Telescope buffers<cr>", {})    
 
 vim.api.nvim_set_keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", {})
+
+require('telescope').setup{  
+	defaults = { 
+		file_ignore_patterns = { 
+			"target"                  -- ingore `target` dir in rust workspace
+		}
+	}
+}
