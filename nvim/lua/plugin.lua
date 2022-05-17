@@ -13,6 +13,7 @@ require('packer').startup(function()
   use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
+  use {"ellisonleao/glow.nvim", branch = 'main'}
 end)
 
 
@@ -22,3 +23,4 @@ require("plugins/barbar")
 require("plugins/nvim-autopairs")
 require("plugins/telescope")
 require("plugins/lsp")
+require("plugins/glow")
