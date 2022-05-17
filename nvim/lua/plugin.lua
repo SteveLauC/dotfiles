@@ -12,6 +12,7 @@ require('packer').startup(function()
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
   use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
+  use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
 end)
 
 
