@@ -31,3 +31,5 @@ trim_at = "-"
 style = "bold dimmed white"
 disabled = true
 
+[nodejs]
+format = "via [🤖 $version](bold green) "
