@@ -11,8 +11,9 @@ require('packer').startup(function()
   use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
-  use {"ellisonleao/glow.nvim", branch = 'main'}
   use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
+  -- use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use { 'nvim-treesitter/nvim-treesitter'}
 end)
 
 
@@ -24,3 +25,4 @@ require("plugins/telescope")
 require("plugins/lsp")
 require("plugins/glow")
 require("plugins/trouble")
+require("plugins/treesitter")

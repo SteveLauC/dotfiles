@@ -84,3 +84,14 @@ alias vim='nvim'
 
 eval "$(starship init zsh)"
 
+# make gcc as strict as possible
+alias gccs='gcc  -Wall -Wextra -std=c99 -pedantic -Wmissing-prototypes -Wstrict-prototypes -Wold-style-definition'
+
+# alias for valgrind
+alias valgrind='valgrind --leak-check=yes'
+
+man() {
+  /usr/bin/man $* | \
+    col -b | \
+    vim -R -c 'set ft=man nomod nolist' -
+}
