@@ -69,6 +69,7 @@ window:
   # The value `0.0` is completely transparent and `1.0` is opaque.
   opacity: 0.9
 
+
   # Startup Mode (changes require restart)
   #
   # Values for `startup_mode`:
