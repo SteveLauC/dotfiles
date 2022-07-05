@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pop!_Shop Daemon
+Comment=Browse and manage apps
+Exec=io.elementary.appcenter -s
+Icon=io.elementary.appcenter
+Terminal=false
+Type=Application
+NoDisplay=true
+X-GNOME-AutoRestart=true
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-Autostart-enabled=false
