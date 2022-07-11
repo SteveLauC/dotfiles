@@ -14,6 +14,13 @@ require('packer').startup(function()
   use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
   -- use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use { 'nvim-treesitter/nvim-treesitter'}
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icons
+    },
+    tag = 'nightly' -- optional, updated every week. (see issue #1193)
+  }
 end)
 
 
@@ -27,3 +34,4 @@ require("plugins/glow")
 require("plugins/trouble")
 require("plugins/treesitter")
 require("plugins/kommentary")
+require("plugins/nvim-tree")
