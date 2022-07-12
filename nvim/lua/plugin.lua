@@ -12,8 +12,6 @@ require('packer').startup(function()
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
   use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
-  -- use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-  use { 'nvim-treesitter/nvim-treesitter'}
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -21,6 +19,7 @@ require('packer').startup(function()
     },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
+  use({ 'projekt0n/github-nvim-theme' })
 end)
 
 
@@ -32,6 +31,6 @@ require("plugins/telescope")
 require("plugins/lsp")
 require("plugins/glow")
 require("plugins/trouble")
-require("plugins/treesitter")
 require("plugins/kommentary")
 require("plugins/nvim-tree")
+require("plugins/github-nvim-theme")
