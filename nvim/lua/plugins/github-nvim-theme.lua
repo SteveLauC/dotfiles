@@ -1,6 +1,6 @@
 -- Example config in Lua
 require("github-theme").setup({
-  theme_style = "light_default",
+  theme_style = "light",
   function_style = "italic",
   sidebars = {"qf", "vista_kind", "terminal", "packer"},
 

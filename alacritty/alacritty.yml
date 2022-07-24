@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.9
+  opacity: 1.0 
 
   # Startup Mode (changes require restart)
   #
@@ -190,34 +190,36 @@ font:
 
 # color section begin
 
+# Colors (Monokai Pro)
 colors:
-    primary:
-      background: '0xfafafa'
-      foreground: '0x5b6672'
+  # Default colors
+  primary:
+    background: '#f6f8fa'
+    foreground: '#22476b'
 
-    # Normal colors
-    normal:
-      black: '0x000000' #0
-      red: '0xf2590b' #1
-      green: '0x76cc00' #2
-      yellow: '0xf29717' #3
-      blue: '0x41a5d9' #4
-      magenta: '0x9965cc' #5
-      cyan: '0x4dbf98' #6
-      white: '0xc7c7c7' #7
+  # Normal colors
+  normal:
+    black:   '#403E41'
+    red:     '#FF6188'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#AB9DF2'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
 
-    # Bright colors
-    bright:
-      black: '0x676767'
-      red: '0xd6646a' #9
-      green: '0xa3d900' #10
-      yellow: '0xe7c446' #11
-      blue: '0x6871ff' #12
-      magenta: '0xa37acc' #13
-      cyan: '0x56d9ad' #14
-      white: '0xfeffff' #15
+  # Bright colors
+  bright:
+    black:   '#727072'
+    red:     '#FF6188'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#AB9DF2'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
 
-# # moonlight_ii_vscode(a nice dark theme)
+# moonlight_ii_vscode(a nice dark theme)
 # colors:
 #   primary:
 #     background: '0x1e2030'
