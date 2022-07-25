@@ -20,6 +20,10 @@ require('packer').startup(function()
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
   use({ 'projekt0n/github-nvim-theme' })
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 end)
 
 
@@ -33,4 +37,7 @@ require("plugins/glow")
 require("plugins/trouble")
 require("plugins/kommentary")
 require("plugins/nvim-tree")
+-- require("plugins/evil_lualine")
+
 require("plugins/github-nvim-theme")
+require("plugins/lualine")
