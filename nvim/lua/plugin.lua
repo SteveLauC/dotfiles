@@ -9,7 +9,7 @@ require('packer').startup(function()
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
   use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
-  use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'} }
+  use { 'romgrk/barbar.nvim', requires = {'kyazdani43/nvim-web-devicons'}}
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
   use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
   use {
@@ -38,3 +38,4 @@ require("plugins/kommentary")
 require("plugins/nvim-tree")
 require("plugins/github-nvim-theme")
 require("plugins/lualine")
+require("plugins/todo-comments")
