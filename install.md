@@ -1,4 +1,4 @@
-## Cli Prompt
+## Cli
 
 1. oh-my-zsh
 
@@ -74,3 +74,24 @@
    sudo dnf install clang-tools-extra 
    ```
 
+## GUI App
+1. wechat (via wine)
+   
+   [WeChat Desktop on Linux](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux)
+
+   
+   To install `cabextract`:
+
+   ```shell
+   sudo yum -y install cabextract
+   ```
+
+   > This may not work.
+
+## Flatpak
+
+1. add remote source:
+   
+   ```shell
+   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   ```
