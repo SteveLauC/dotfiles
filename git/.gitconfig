@@ -1,0 +1,5 @@
+[user]
+	email = stevelauc@outlook.com
+	name = Steve Lau
+[credential]
+	helper = /usr/libexec/git-core/git-credential-libsecret
