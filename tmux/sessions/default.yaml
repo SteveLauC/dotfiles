@@ -1,0 +1,16 @@
+session_name: default
+windows:
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~

@@ -1,0 +1,16 @@
+session_name: notes
+windows:
+  - window_name: tlpi
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/Notes/system/system-programming/the-linux-programming-interface
+
+  - window_name: algo
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/Notes/algorithm/algorithm-4th-edition
+
+  - window_name: cpp
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/Notes/programming-language/cpp

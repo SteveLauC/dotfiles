@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo cp -r CascadiaCode /usr/share/fonts
+sudo cp -r ~/Documents/dotfiles/font/CascadiaCode /usr/share/fonts
 # rebuild the font cache
 sudo fc-cache -fv
 

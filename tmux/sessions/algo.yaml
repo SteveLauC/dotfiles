@@ -1,0 +1,11 @@
+session_name: algo
+windows:
+  - window_name: code
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/Algorithms-4th-Edition
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/Algorithms-4th-Edition

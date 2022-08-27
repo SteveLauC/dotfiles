@@ -24,48 +24,58 @@
    curl -sS https://starship.rs/install.sh | sh
    ```
 
-## Cli tools
-
-1. exa
+5. exa
 
    ```shell
    sudo dnf install exa
    ```
-2. bat
+6. bat
    
    ```shell
    sudo dnf install bat
    ```
 
-3. htop
+7. htop
    
    ```shell
    sudo dnf install htop
    ```
 
-4. mycli
+8. mycli
 
    ```shell
    sudo dnf install mycli
    ```
-5. ripgrep
+9. ripgrep
    
    ```shell
    sudo dnf install ripgrep
    ```
 
-6. neofetch
+10. neofetch
    
-   ```shell
-   sudo dnf install neofetch
-   ```
+    ```shell
+    sudo dnf install neofetch
+    ```
+
+11. pip(3)
+   
+    ```shell
+    sudo dnf install pip
+    ```
+
+12. tmuxp
+
+    ```shell
+    pip install --user tmuxp
+    ```
 
 ## Language Server
+
 1. Rust-analyzer
    
    ```shell
-   git clone https://github.com/rust-lang/rust-analyzer.git && cd rust-analyzer
-   cargo xtask install --server
+   git clone https://github.com/rust-lang/rust-analyzer.git && cd rust-analyzer && cargo xtask install --server
    ```
 
 2. Clangd
@@ -75,6 +85,7 @@
    ```
 
 ## GUI App
+
 1. wechat (via wine)
    
    [WeChat Desktop on Linux](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux)

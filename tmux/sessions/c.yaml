@@ -1,0 +1,11 @@
+session_name: c
+windows:
+  - window_name: code
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/c
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/c
