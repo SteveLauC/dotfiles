@@ -70,6 +70,12 @@
     pip install --user tmuxp
     ```
 
+13. most
+
+    ```shell
+    sudo dnf install most
+    ```
+
 ## Language Server
 
 1. Rust-analyzer

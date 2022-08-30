@@ -17,16 +17,10 @@ export PATH="$PATH:/home/steve/.local/share/JetBrains/Toolbox/scripts"
 export PATH="$PATH:/home/steve/.local/bin"
 # Proxy
 export http_proxy=http://127.0.0.1:8890;export https_proxy=http://127.0.0.1:8890;
-
+# use `most` as the pager (syntax highlight for `man`)
+export PAGER="most"
 
 # User interactive configuration
-
-# use vim for man page
-man() {
-  /usr/bin/man $@ | \
-    col -b | \
-    vim -R -c 'set ft=man nomod nolist' -
-}
 # exa alias
 alias l='exa -lgh'
 alias ll='exa -aalgh'
