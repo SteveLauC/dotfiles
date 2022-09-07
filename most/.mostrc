@@ -2,6 +2,8 @@
 setkey column_left h
 setkey down j
 setkey up k
+setkey down ^e
+setkey up ^y
 setkey column_right l
 setkey exit q
 setkey exit ^C
