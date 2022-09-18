@@ -19,6 +19,8 @@ export PATH="$PATH:/home/steve/.local/bin"
 export http_proxy=http://127.0.0.1:8890;export https_proxy=http://127.0.0.1:8890;
 # use `most` as the pager (syntax highlight for `man`)
 export PAGER="most -c"
+# Theme for Bat
+export BAT_THEME="ansi"
 
 # User interactive configuration
 # exa alias
@@ -38,3 +40,5 @@ alias gs-restart='killall -3 gnome-shell'
 
 # run starship
 eval "$(starship init zsh)"
+# run zoxide
+eval "$(zoxide init zsh)"
