@@ -42,8 +42,8 @@ export BAT_THEME="ansi"
 
 # exa alias
 alias ls='exa'
-alias l='exa -lgh'
-alias ll='exa -aalgh'
+alias l='exa -lghH'
+alias ll='exa -aalghH'
 
 # Neovim
 alias vim='nvim'
