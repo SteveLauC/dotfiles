@@ -34,7 +34,8 @@ export PAGER="most -c"
 # Theme for Bat
 export BAT_THEME="ansi"
 
-
+# panic backtrace for rust
+export RUST_BACKTRACE=1
 
 ################################################################################
 # User interactive configuration                                               #

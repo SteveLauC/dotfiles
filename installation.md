@@ -75,6 +75,11 @@
     ```shell
     sudo dnf install most
     ```
+14. fish
+    
+    ```shell
+    sudo dnf install fish
+    ```
 
 ## Language Server
 

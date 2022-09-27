@@ -3,3 +3,9 @@
 	name = Steve Lau
 [credential]
 	helper = /usr/libexec/git-core/git-credential-libsecret
+
+; Disable git status check of oh-my-zsh since it will make the shell incrediably 
+; slow when operating big repos
+; [oh-my-zsh]
+; 	hide-dirty = 1
+; 	hide-status = 1
