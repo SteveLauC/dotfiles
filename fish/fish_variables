@@ -33,5 +33,5 @@ SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/steve/\x2elocal/bin\x1e/home/steve/\x2ecargo/bin\x1e/home/steve/\x2elocal/share/JetBrains/Toolbox/scripts
-SETUVAR http_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
-SETUVAR https_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
+SETUVAR --export http_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
+SETUVAR --export https_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
