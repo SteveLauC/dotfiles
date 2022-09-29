@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
-  ["clangd_extensions.nvim"] = {
-    loaded = true,
-    path = "/home/steve/.local/share/nvim/site/pack/packer/start/clangd_extensions.nvim",
-    url = "https://github.com/p00f/clangd_extensions.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -98,11 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
-  },
-  ["indent-blankline.nvim"] = {
-    loaded = true,
-    path = "/home/steve/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   kommentary = {
     loaded = true,
@@ -148,11 +138,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["rust-tools.nvim"] = {
-    loaded = true,
-    path = "/home/steve/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
-    url = "https://github.com/simrat39/rust-tools.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

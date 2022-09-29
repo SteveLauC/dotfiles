@@ -8,8 +8,6 @@ require('packer').startup(function()
   use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
-  use 'simrat39/rust-tools.nvim' -- type hints for Rust
-  -- use 'p00f/clangd_extensions.nvim' -- type hints for C/C++
   use { 'nvim-telescope/telescope.nvim', requires = { {'nvim-lua/plenary.nvim'} } }
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'}}
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
@@ -26,7 +24,6 @@ require('packer').startup(function()
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-  use "lukas-reineke/indent-blankline.nvim"
 end)
 
 
@@ -42,6 +39,3 @@ require("plugins/nvim-tree")
 require("plugins/github-nvim-theme")
 require("plugins/lualine")
 require("plugins/todo-comments")
-require("plugins/rust-tools")
-require("plugins/indent-blankline")
--- require("plugins/clangd_extensions")
