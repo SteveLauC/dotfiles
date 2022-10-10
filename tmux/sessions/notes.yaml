@@ -10,7 +10,7 @@ windows:
     shell_command_before:
       - cd ~/Documents/Notes/algorithm/algorithm-4th-edition
 
-  - window_name: cpp
+  - window_name: rust
     layout: tiled
     shell_command_before:
-      - cd ~/Documents/Notes/programming-language/cpp
+      - cd ~/Documents/Notes/programming-language/Rust/programming-rust/
