@@ -1,3 +1,3 @@
-function ll --wraps=ls --wraps='exa -aalghH' --description 'alias ll=exa -aalghH'
-  exa -aalghH $argv; 
+function ll --wraps=ls --wraps='exa -alghH' --description 'alias ll=exa -alghH'
+  exa -alghH $argv; 
 end
