@@ -24,6 +24,7 @@ require('packer').startup(function()
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  use 'jinh0/eyeliner.nvim'
 end)
 
 
@@ -39,3 +40,4 @@ require("plugins/nvim-tree")
 require("plugins/github-nvim-theme")
 require("plugins/lualine")
 require("plugins/todo-comments")
+require("plugins/eyeliner")

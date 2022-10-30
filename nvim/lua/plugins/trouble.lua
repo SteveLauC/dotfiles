@@ -1,1 +1,1 @@
-vim.api.nvim_set_keymap("n", "<C-t>", "<cmd>TroubleToggle<cr>", {})
+vim.keymap.set('n', '<C-t>', "<cmd>TroubleToggle<CR>")
