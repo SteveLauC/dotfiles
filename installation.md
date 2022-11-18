@@ -188,7 +188,7 @@
 
     To run `Alacritty` through `x11`:
 
-    ```toml
+    ```
     [Desktop Entry]
     Type=Application
     TryExec=alacritty
@@ -209,7 +209,7 @@
     ```
 11. ONLYOFFICE
 
-    ````shell
+    ```shell
     flatpak install flathub org.onlyoffice.desktopeditors
     ```
 
