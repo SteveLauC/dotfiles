@@ -1,0 +1,6 @@
+# relative number
+set rnu
+# Integrate with the system clipboard
+set clipboard+=unnamed
+# Commentry
+set commentary

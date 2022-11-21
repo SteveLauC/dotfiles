@@ -240,6 +240,18 @@
     flatpak install flathub com.todoist.Todoist
     ```
 
+16. Gnome Extensions
+
+    ```shell
+    sudo dnf install -y gnome-extensions-app
+    ```
+
+17. Pomodoro
+    
+    ```shell
+    sudo dnf install -y gnome-pomodoro
+    ```
+
 ## Gnome Customized Shortcut
 
 | Category | Action                                 | Shortcut           |
