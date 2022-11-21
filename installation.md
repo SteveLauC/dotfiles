@@ -106,6 +106,12 @@
     sudo dnf -y install mold
     ```
 
+18. git-credential-libsecret
+
+    ```shell
+    sudo dnf -y install git-credential-libsecret
+    ```
+
 ## Language Server
 
 1. Rust-analyzer

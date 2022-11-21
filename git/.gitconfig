@@ -2,4 +2,6 @@
 	email = stevelauc@outlook.com
 	name = Steve Lau
 [credential]
+	# To install `git-credential-libsecret`, use:
+	# sudo dnf -y install git-credential-libsecret
 	helper = /usr/libexec/git-core/git-credential-libsecret
