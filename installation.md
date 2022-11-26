@@ -258,6 +258,14 @@
     sudo dnf install -y gnome-pomodoro
     ```
 
+18. Seahorce
+
+    > GNOME application for managing PGP keys.
+
+    ```shell
+    sudo dnf install -y seahorce
+    ```
+
 ## Gnome Customized Shortcut
 
 | Category | Action                                 | Shortcut           |
