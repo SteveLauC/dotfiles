@@ -112,6 +112,44 @@
     sudo dnf -y install git-credential-libsecret
     ```
 
+19. JDK
+
+    Fedora ships JRE (headless version) by default, to install JDK:
+
+    ```shell
+    $ dnf search jdk
+
+    # then install the version you want
+    # e.g., to install jdk 17
+    $ sudo dnf install -y java-17-openjdk.x86_64
+    ```
+
+    To set `$JAVA_HOME` in fish:
+
+    ```shell
+    set -Ux JAVA_HOME (readlink -f /usr/bin/java | sed "s:bin/java::")
+    ```
+
+
+20. Maven
+
+    > Pkg manager for Java
+
+    ```shell
+    sudo dnf install -y maven
+    ```
+
+    To check if the installation is successful:
+
+    ```shell
+    $ mvn --version
+    Apache Maven 3.8.4 (Red Hat 3.8.4-3)
+    Maven home: /usr/share/maven
+    Java version: 17.0.5, vendor: Red Hat, Inc., runtime: /usr/lib/jvm/java-17-openjdk-17.0.5.0.8-2.fc36.x86_64
+    Default locale: en_US, platform encoding: UTF-8
+    OS name: "linux", version: "6.0.10-200.fc36.x86_64", arch: "amd64", family: "unix"
+    ```
+
 ## Language Server
 
 1. Rust-analyzer

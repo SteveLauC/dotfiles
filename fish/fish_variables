@@ -1,7 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export BAT_THEME:ansi
+SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d17\x2dopenjdk\x2d17\x2e0\x2e5\x2e0\x2e8\x2d2\x2efc36\x2ex86_64/
 SETUVAR --export PAGER:most\x20\x2dc
+SETUVAR --export RUSTUP_DIST_SERVER:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/rust\x2dstatic
+SETUVAR --export RUSTUP_UPDATE_ROOT:https\x3a//mirrors\x2eustc\x2eedu\x2ecn/rust\x2dstatic/rustup
 SETUVAR --export RUST_BACKTRACE:1
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
@@ -32,6 +35,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/steve/\x2elocal/bin\x1e/home/steve/\x2ecargo/bin\x1e/home/steve/\x2elocal/share/JetBrains/Toolbox/scripts
+SETUVAR fish_user_paths:/home/steve/Documents/workspace/emsdk/upstream/emscripten\x1e/home/steve/Documents/workspace/emsdk/node/14\x2e18\x2e2_64bit/bin\x1e/home/steve/Documents/workspace/emsdk\x1e/home/steve/\x2elocal/bin\x1e/home/steve/\x2ecargo/bin\x1e/home/steve/\x2elocal/share/JetBrains/Toolbox/scripts
 SETUVAR --export http_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
 SETUVAR --export https_proxy:http\x3a//127\x2e0\x2e0\x2e1\x3a8890
