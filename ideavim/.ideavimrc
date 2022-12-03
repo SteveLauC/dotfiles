@@ -1,6 +1,12 @@
-# relative number
-set rnu
 # Integrate with the system clipboard
 set clipboard+=unnamed
+
+# line number
+set rnu
+set nu
+
 # Commentry
 set commentary
+
+# Highlight by default
+set hls
