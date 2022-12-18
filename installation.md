@@ -120,8 +120,8 @@
     $ dnf search jdk
 
     # then install the version you want
-    # e.g., to install jdk 17
-    $ sudo dnf install -y java-17-openjdk.x86_64
+    # e.g., to install jdk 17 development environment
+    $ sudo dnf install java-17-openjdk-devel.x86_64
     ```
 
     To set `$JAVA_HOME` in fish:
@@ -341,6 +341,15 @@
   
    ```shell
 
+   ```
+
+2. lucene
+
+   > Lucene is an open-source Java full-text search library which makes it easy 
+   > to add search functionality to an application or website.
+
+   ```shell
+   sudo dnf install lucene
    ```
 
 ## Mirror
