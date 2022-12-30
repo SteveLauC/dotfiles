@@ -37,6 +37,11 @@ export BAT_THEME="ansi"
 # panic backtrace for rust
 export RUST_BACKTRACE=1
 
+# Set JDK installation directory according to selected Java compiler
+export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
+# Or you can use the following one if you don't have javac installed (e.g., JRE)
+# export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:/bin/java::")
+
 ################################################################################
 # User interactive configuration                                               #
 ################################################################################
