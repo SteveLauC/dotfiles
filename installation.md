@@ -179,6 +179,9 @@
 
 ## GUI App
 
+To install flatpak apps in bulk, take a look at the [`README.md` doc under `flatpak`]
+(https://github.com/SteveLauC/dotfiles/tree/main/flatpak)
+
 1. Wechat (via wine)
    
    [WeChat Desktop on Linux](https://ferrolho.github.io/blog/2018-12-22/wechat-desktop-on-linux)
@@ -373,9 +376,21 @@
    > Lucene is an open-source Java full-text search library which makes it easy 
    > to add search functionality to an application or website.
 
-   ```shell
-   sudo dnf install lucene
-   ```
+   > This method does not seem to work (x)
+   > ```shell
+   > sudo dnf install lucene
+   > ```
+
+   1. Download the pre-built `jar` files from their [official website]
+      (https://lucene.apache.org/core/downloads.html)
+
+   2. Add the paths of the `jar` files needed into Java's `CLASSPATH`
+      
+      > If you are using an IDE such as IDEA, it can handle this for you.
+
+   3. Use it in your java program.
+
+
 
 ## Mirrors
 
