@@ -1,4 +1,15 @@
-## Cli
+## Table Of Contents
+
+* [CLI Tools](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#cli-tools)
+* [Language Servers](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#language-servers) 
+* [GUI App](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#gui-app) 
+* [Gnome Customized Shortcut](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#gnome-customized-shortcut)
+* [Flatpak Source](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#flatpak-source)
+* [Languages](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#languages)
+* [Libraries](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#libraries)
+* [Mirrors](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#mirrors)
+
+## CLI Tools
 
 1. oh-my-zsh
 
@@ -150,12 +161,14 @@
     OS name: "linux", version: "6.0.10-200.fc36.x86_64", arch: "amd64", family: "unix"
     ```
 
-## Language Server
+## Language Servers
 
 1. Rust-analyzer
    
    ```shell
-   git clone https://github.com/rust-lang/rust-analyzer.git && cd rust-analyzer && cargo xtask install --server
+   git clone https://github.com/rust-lang/rust-analyzer.git 
+   cd rust-analyzer 
+   cargo xtask install --server
    ```
 
 2. Clangd
@@ -304,6 +317,18 @@
     sudo dnf install -y seahorce
     ```
 
+19. Netease Cloud Music
+ 
+    > For Debian-based distros, `.deb` package is officially provided by Netease.
+    > `.deb` package link: [download](https://music.163.com/#/download)
+
+    For other distros, a flatpak package is available:
+
+    ```shell
+    flatpak install flathub com.netease.CloudMusic
+    ```
+    
+
 ## Gnome Customized Shortcut
 
 | Category | Action                                 | Shortcut           |
@@ -319,7 +344,7 @@
 |Windows   | View split on left                     | Ctrl + Super + J   |
 |Windows   | View split on right                    | Ctrl + Super + K   |
 
-## Flatpak
+## Flatpak Source
 
 1. add remote source:
    
@@ -327,7 +352,7 @@
    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
    ```
 
-## Language
+## Languages
 
 1. Rust
 
@@ -352,7 +377,7 @@
    sudo dnf install lucene
    ```
 
-## Mirror
+## Mirrors
 
 1. dnf
 
@@ -370,4 +395,34 @@
 
    ```shell
    sudo dnf makecache
+   ```
+
+2. Crates.io 
+
+   > Configure the following items in `config.toml`, which is located under 
+   > `/home/$USER/.cargo`: 
+
+   ```toml
+   [source.crates-io]
+   replace-with = 'tuna'
+
+   [source.ustc]
+   registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+   [source.tuna]
+   registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+   ```
+
+3. rustup toolchain (USTC mirror)
+
+   > [doc](https://mirrors.ustc.edu.cn/help/rust-static.html)
+
+   Before using `rustup`, set two env variables:
+
+   ```shell
+   # RUSTUP_DIST_SERVER, used to update toolchain
+   export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+
+   # RUSTUP_UPDATE_ROOT, used to update `rustup`
+   export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
    ```
