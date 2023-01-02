@@ -1,11 +1,12 @@
 com.getpostman.Postman
 com.github.GradienceTeam.Gradience
+com.github.gmg137.netease-cloud-music-gtk
 com.github.johnfactotum.Foliate
 com.github.neithern.g4music
 com.github.phase1geo.minder
 com.github.tchx84.Flatseal
 com.google.Chrome
-com.netease.CloudMusic
+com.qq.QQ
 com.spotify.Client
 com.tencent.wemeet
 com.todoist.Todoist
