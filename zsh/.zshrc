@@ -25,6 +25,14 @@ export PATH="$PATH:/home/steve/.local/share/JetBrains/Toolbox/scripts"
 # Binarys install through pip
 export PATH="$PATH:/home/steve/.local/bin"
 
+# bob: package manager for neovim
+# NOTE: bob won't install a clipboard management tool for your, you have to 
+# install one manually. e.g, to install `wl-clipboard`:
+# sudo dnf install -y wl-clipboard
+# For more information, see the `neovim` section in `installation.md`
+# https://github.com/SteveLauC/dotfiles/blob/main/installation.md#cli-tools
+export PATH="$PATH:/home/steve/.local/share/neovim/bin"
+
 # Proxy
 export http_proxy=http://127.0.0.1:8890;
 export https_proxy=http://127.0.0.1:8890;

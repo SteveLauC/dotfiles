@@ -161,6 +161,49 @@
     OS name: "linux", version: "6.0.10-200.fc36.x86_64", arch: "amd64", family: "unix"
     ```
 
+21. neovim
+
+    1. Through `dnf` 
+      
+       ```shell
+       sudo dnf install -y neovim
+       ``` 
+
+       NOTE: Installing neovim through `dnf` will install dependency `xsel` (One
+       of the clipboard management backends used by `neovim`)
+       ![diagram](https://github.com/SteveLauC/pic/blob/main/Screenshot%20from%202023-01-02%2011-30-53.png)
+
+    2. Through [`bob`](https://github.com/MordechaiHadad/bob)
+
+       > `bob` is a package manager for `neovim`
+
+       ```shell
+       $ cargo install bob
+       $ bob install xxx
+       ```
+
+       Unlike `dnf`, `bob` will not install `xsel` (or something like this) for you.
+
+       Running `:checkhealth` may give you the following error message:
+
+       ```
+       27 ## Clipboard (optional)
+
+       1 - WARNING: No clipboard tool found. Clipboard registers (`"+` and `"*`) will not work.
+       ```
+
+       To fix this, under wayland, you can install `wl-clipboard`:
+
+       ```shell
+       sudo dnf install -y wl-clipboard
+       ```
+
+       or `xsel`
+
+       ```shell
+       sudo dnf install -y xsel
+       ```
+
 ## Language Servers
 
 1. Rust-analyzer
