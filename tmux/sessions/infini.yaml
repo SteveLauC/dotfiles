@@ -1,0 +1,16 @@
+session_name: INFINI
+windows:
+  - window_name: log
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/INFINI
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/INFINI-Search
+
+  - window_name: terminal
+    layout: tiled
+    shell_command_before:
+      - cd ~/Documents/workspace/INFINI-Search

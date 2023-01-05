@@ -70,14 +70,17 @@ alias gccs='gcc  -Wall -Wextra -std=gnu99 -pedantic -Wmissing-prototypes \
 	-Wstrict-prototypes -Wold-style-definition'
 
 alias g++s='g++ -fno-elide-constructors -pedantic-errors -ansi -Wextra -Wall \
-	-Winit-self -Wold-style-cast -Woverloaded-virtual -Wuninitialized -Wmissing-declarations \
-	-Winit-self -std=c++17'
+	-Winit-self -Wold-style-cast -Woverloaded-virtual -Wuninitialized \
+	-Wmissing-declarations -Winit-self -std=c++17'
 
 # alias for valgrind
 alias valgrind='valgrind --leak-check=yes'
 
 # restart gnome shell
 alias gs-restart='killall -3 gnome-shell'
+
+# use `open` instead of `xdg-open`
+alias open='xdg-open'
 
 ################################################################################
 # Tool startup                                                                 #
