@@ -1,5 +1,4 @@
-# configuration file for pup
-[user]
-github-user-name = "SteveLauC"
-github-repo-name = "pic"
+# Configuration file for pup
+github_user_name = "SteveLauC"
+github_repo_name = "pic"
 mail = "stevelauc@outlook.com"
