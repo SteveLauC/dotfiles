@@ -1,2 +1,2 @@
-require("normal")
+require("core")
 require("plugin")
