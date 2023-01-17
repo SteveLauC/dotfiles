@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-save.nvim"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
+    url = "https://github.com/Pocco81/auto-save.nvim"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/barbar.nvim",
@@ -99,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/eyeliner.nvim",
     url = "https://github.com/jinh0/eyeliner.nvim"
   },
-  ["github-nvim-theme"] = {
-    loaded = true,
-    path = "/home/steve/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
-    url = "https://github.com/projekt0n/github-nvim-theme"
-  },
   kommentary = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/kommentary",
@@ -113,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["nvim-autopairs"] = {
     loaded = true,

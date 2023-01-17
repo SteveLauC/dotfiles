@@ -19,12 +19,13 @@ require('packer').startup(function()
     },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
-  use({ 'projekt0n/github-nvim-theme' })
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   use 'jinh0/eyeliner.nvim'
+  use 'Pocco81/auto-save.nvim'
+  use 'Shatur/neovim-ayu'
 end)
 
 
@@ -37,7 +38,7 @@ require("plugins/lsp")
 require("plugins/trouble")
 require("plugins/kommentary")
 require("plugins/nvim-tree")
-require("plugins/github-nvim-theme")
 require("plugins/lualine")
 require("plugins/todo-comments")
 require("plugins/eyeliner")
+require("plugins/neovim-ayu")

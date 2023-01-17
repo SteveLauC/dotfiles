@@ -1,0 +1,21 @@
+theme = "ayu_light"
+
+[editor]
+auto-save = true
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+shell = ["zsh", "-c"]
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "position", "position-percentage" ,"spacer", "spacer", "diagnostics"] 
+center = []
+right = []
+
+
+[editor.cursor-shape]
+insert = "bar"
+
+[keys.normal]
+C-e = ["align_view_bottom", "move_line_down" ]
+C-y = ["align_view_top", "move_line_up" ]
