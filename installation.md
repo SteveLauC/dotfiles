@@ -204,6 +204,13 @@
        sudo dnf install -y xsel
        ```
 
+22. lazygit
+   
+    ```shell
+   sudo dnf copr enable atim/lazygit -y
+   sudo dnf install lazygit
+    ```
+
 ## Language Servers
 
 1. Rust-analyzer

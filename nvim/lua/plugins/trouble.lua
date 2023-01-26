@@ -1,1 +1,1 @@
-vim.keymap.set('n', '<C-t>', "<cmd>TroubleToggle<CR>")
+vim.keymap.set('n', '<M-6>', "<cmd>TroubleToggle<CR>")

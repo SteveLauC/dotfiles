@@ -1,12 +1,12 @@
-# Integrate with the system clipboard
-set clipboard+=unnamed
-
-# line number
+" System clipboard synchronization
+set clipboard=unnamedplus
+" line number
 set rnu
 set nu
-
-# Commentry
+" emulate the behavior of vim-commentary
 set commentary
-
-# Highlight by default
+" search highlight
 set hls
+" Switch between tabs
+nmap <c-l> <Action>(NextTab)
+nmap <c-h> <Action>(PreviousTab)
