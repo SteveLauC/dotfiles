@@ -386,10 +386,10 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
 | Category | Action                                 | Shortcut           | Still working with pop-shell |
 |----------|----------------------------------------|--------------------|------------------------------|
-|Navigation| Move to workspace on the left          | Ctrl + Super + H   | Yes (this keybinding comes from pop-shell)                          |
-|Navigation| Move to workspace on the left          | Ctrl + Super + L   | Yes (this keybinding comes from pop-shell)                          |
-|Navigation| Move window one workspace to the left  | Shift + Super + H  | No (Use `super+enter` to enter adjustment mode, then u can use it)|
-|Navigation| Move window one workspace to the right | Shift + Super + L  | No (Use `super+enter` to enter adjustment mode, then u can use it)|
+|Navigation| Move to workspace on the left          | Ctrl + Super + H   | Yes (this keybinding comes from pop-shell)|
+|Navigation| Move to workspace on the left          | Ctrl + Super + L   | Yes (this keybinding comes from pop-shell)|
+|Navigation| Move window one workspace to the left  | Shift + Super + H  | Yes (this keybinding comes from pop-shell)|
+|Navigation| Move window one workspace to the right | Shift + Super + L  | Yes (this keybinding comes from pop-shell)|
 |Typing    | Switch to next input source            | Ctrl + Space       | Yes                          |
 |Windows   | Close window                           | Super + Q          | Yes                          |
 |Windows   | Maximize window                        | Super + M          | Yes                          |
