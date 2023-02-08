@@ -384,18 +384,31 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
 ## Gnome Customized Shortcut
 
-| Category | Action                                 | Shortcut           |
-|----------|----------------------------------------|--------------------|
-|Navigation| Move to workspace on the left          | Ctrl + Super + H   |
-|Navigation| Move to workspace on the left          | Ctrl + Super + L   |
-|Navigation| Move window one workspace to the left  | Shift + Super + H  |
-|Navigation| Move window one workspace to the right | Shift + Super + L  |
-|Typing    | Switch to next input source            | Ctrl + Space       | 
-|Windows   | Close window                           | Super + Q          |
-|Windows   | Maximize window                        | Super + M          |
-|Windows   | Restore window                         | Super + N          |
-|Windows   | View split on left                     | Ctrl + Super + J   |
-|Windows   | View split on right                    | Ctrl + Super + K   |
+| Category | Action                                 | Shortcut           | Still working with pop-shell |
+|----------|----------------------------------------|--------------------|------------------------------|
+|Navigation| Move to workspace on the left          | Ctrl + Super + H   | Yes (this keybinding comes from pop-shell)                          |
+|Navigation| Move to workspace on the left          | Ctrl + Super + L   | Yes (this keybinding comes from pop-shell)                          |
+|Navigation| Move window one workspace to the left  | Shift + Super + H  | No (Use `super+enter` to enter adjustment mode, then u can use it)|
+|Navigation| Move window one workspace to the right | Shift + Super + L  | No (Use `super+enter` to enter adjustment mode, then u can use it)|
+|Typing    | Switch to next input source            | Ctrl + Space       | Yes                          |
+|Windows   | Close window                           | Super + Q          | Yes                          |
+|Windows   | Maximize window                        | Super + M          | Yes                          |
+|Windows   | Restore window                         | Super + N          | Yes                          |
+|Windows   | View split on left                     | Ctrl + Super + J   | Yes(but u don't need this with a wm) |
+|Windows   | View split on right                    | Ctrl + Super + K   | No (but u don't need this with a wm) |
+
+> [pop-shell keybingdings manual](https://support.system76.com/articles/pop-keyboard-shortcuts/)
+
+> To make the above bindings work, you need to:
+>
+> > Not sure if this will work...
+>
+> 1. Set them in Settings
+> 2. Install `pop-shell` and let it overwrite some settings
+>
+>    ```shell
+>    $ sudo dnf install gnome-shell-extension-pop-shell
+>    ```
 
 ## Flatpak Source
 
