@@ -408,6 +408,9 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 >
 >    ```shell
 >    $ sudo dnf install gnome-shell-extension-pop-shell
+>    
+>    # To use it under xorg(x11)
+>    $ sudo dnf install xprog
 >    ```
 
 ## Flatpak Source
