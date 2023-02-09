@@ -380,6 +380,14 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
     ```shell
     flatpak install flathub com.netease.CloudMusic
     ```
+
+20. Ulauncher
+
+    ```shell
+    sudo dnf install ulauncher
+    ```
+
+    NOTE: u need to disable it in `yilozt/rounded-window-corners`.
     
 
 ## Gnome Customized Shortcut
@@ -399,19 +407,14 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
 > [pop-shell keybingdings manual](https://support.system76.com/articles/pop-keyboard-shortcuts/)
 
-> To make the above bindings work, you need to:
+> Install `pop-shell` and let it overwrite some settings
 >
-> > Not sure if this will work...
->
-> 1. Set them in Settings
-> 2. Install `pop-shell` and let it overwrite some settings
->
->    ```shell
->    $ sudo dnf install gnome-shell-extension-pop-shell
+> ```shell
+> $ sudo dnf install gnome-shell-extension-pop-shell
 >    
->    # To use it under xorg(x11)
->    $ sudo dnf install xprog
->    ```
+> # To use it under xorg(x11)
+> $ sudo dnf install xprog
+> ```
 
 ## Flatpak Source
 
