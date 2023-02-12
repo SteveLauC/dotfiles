@@ -1,6 +1,7 @@
 ###############################################################################
 # Oh-my-zsh configuration                                                     #
 ###############################################################################
+
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(
@@ -62,9 +63,6 @@ alias ll='exa -aalghH'
 # Neovim
 alias vim='nvim'
 
-# Tmux session script
-alias dev='bash ~/Documents/dotfiles/tmux/dev.sh'
-
 # make gcc and g++ as strict as possible
 alias gccs='gcc  -Wall -Wextra -std=gnu99 -pedantic -Wmissing-prototypes \
 	-Wstrict-prototypes -Wold-style-definition'
@@ -81,6 +79,17 @@ alias gs-restart='killall -3 gnome-shell'
 
 # use `open` instead of `xdg-open`
 alias open='xdg-open'
+
+
+################################################################################
+# scripts                                                                      #
+################################################################################
+
+# Update packages
+alias update='bash ~/Documents/dotfiels/scripts/update.sh'
+# Tmux session script
+alias dev='bash ~/Documents/dotfiles/scripts/dev.sh'
+
 
 ################################################################################
 # Tool startup                                                                 #

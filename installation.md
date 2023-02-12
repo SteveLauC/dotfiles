@@ -367,7 +367,7 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
     > GNOME application for managing PGP keys.
 
     ```shell
-    sudo dnf install -y seahorce
+    sudo dnf install -y seahorse
     ```
 
 19. Netease Cloud Music
@@ -413,7 +413,7 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 > $ sudo dnf install gnome-shell-extension-pop-shell
 >    
 > # To use it under xorg(x11)
-> $ sudo dnf install xprog
+> $ sudo dnf install xprop
 > ```
 
 ## Flatpak Source
