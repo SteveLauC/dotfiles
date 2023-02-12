@@ -86,7 +86,7 @@ alias open='xdg-open'
 ################################################################################
 
 # Update packages
-alias update='bash ~/Documents/dotfiels/scripts/update.sh'
+alias update='bash ~/Documents/dotfiles/scripts/update.sh'
 # Tmux session script
 alias dev='bash ~/Documents/dotfiles/scripts/dev.sh'
 

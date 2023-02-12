@@ -14,7 +14,7 @@ done
 # Kill all the existing sessions
 tmux kill-server > /dev/null 2>/dev/null;
 
-sessions=../tmux/sessions
+sessions=~/Documents/dotfiles/tmux/sessions
 for session in `ls $sessions`
 do 
 	tmuxp load -d "${sessions}/${session}" >/dev/null
