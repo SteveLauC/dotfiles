@@ -60,6 +60,9 @@ alias ls='exa'
 alias l='exa -lghH'
 alias ll='exa -aalghH'
 
+# bat
+alias cat='bat'
+
 # Neovim
 alias vim='nvim'
 
