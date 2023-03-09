@@ -9,3 +9,6 @@
 
 [build]
 rustflags = ["-C", "link-arg=-fuse-ld=mold"]
+
+[registries.crates-io]
+protocol = "sparse"
