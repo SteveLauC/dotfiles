@@ -1,9 +1,9 @@
 theme = "ayu_light"
 
 [editor]
-auto-save = true
+auto-save = false
 line-number = "relative"
-mouse = false
+mouse = true
 bufferline = "multiple"
 shell = ["zsh", "-c"]
 
@@ -15,7 +15,3 @@ right = []
 
 [editor.cursor-shape]
 insert = "bar"
-
-[keys.normal]
-C-e = ["align_view_bottom", "move_line_down" ]
-C-y = ["align_view_top", "move_line_up" ]
