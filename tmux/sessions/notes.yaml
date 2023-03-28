@@ -1,21 +1,21 @@
 session_name: notes
 windows:
-  - window_name: tlpi
+  - window_name: note
     layout: tiled
     shell_command_before:
-      - cd ~/Documents/Notes/system/system-programming/the-linux-programming-interface
+      - cd ~/Documents/Notes
 
-  - window_name: algo
+  - window_name: note
     layout: tiled
     shell_command_before:
-      - cd ~/Documents/Notes/algorithm/algorithm-4th-edition
+      - cd ~/Documents/Notes
 
-  - window_name: rust
+  - window_name: note
     layout: tiled
     shell_command_before:
-      - cd ~/Documents/Notes/programming-language/Rust/programming-rust/
+      - cd ~/Documents/Notes
 
-  - window_name: db
+  - window_name: note
     layout: tiled
     shell_command_before:
-      - cd ~/Documents/Notes/database/database-system-concepts
+      - cd ~/Documents/Notes

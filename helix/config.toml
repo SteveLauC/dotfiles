@@ -1,7 +1,7 @@
 theme = "ayu_light"
 
 [editor]
-auto-save = false
+auto-save = true
 line-number = "relative"
 mouse = true
 bufferline = "multiple"

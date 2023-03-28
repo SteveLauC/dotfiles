@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/eyeliner.nvim",
     url = "https://github.com/jinh0/eyeliner.nvim"
   },
+  ["fidget.nvim"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+    url = "https://github.com/j-hui/fidget.nvim"
+  },
   kommentary = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/kommentary",

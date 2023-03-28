@@ -26,6 +26,7 @@ require('packer').startup(function()
   use 'jinh0/eyeliner.nvim'
   use 'Pocco81/auto-save.nvim'
   use 'Shatur/neovim-ayu'
+  use 'j-hui/fidget.nvim' 
 end)
 
 
@@ -42,3 +43,4 @@ require("plugins/lualine")
 require("plugins/todo-comments")
 require("plugins/eyeliner")
 require("plugins/neovim-ayu")
+require("plugins/fidget")
