@@ -1,2 +1,3 @@
 # Copy to its corresponding path
-cp data/db.zo ~/.local/share/zoxide
+ln -s ~/Documents/dotfiles/zoxide/data/db.zo \
+    ~/.local/share/zoxide/db.zo
