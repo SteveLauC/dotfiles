@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["crates.nvim"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/crates.nvim",
+    url = "https://github.com/saecki/crates.nvim"
+  },
   ["eyeliner.nvim"] = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/eyeliner.nvim",

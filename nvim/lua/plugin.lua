@@ -27,6 +27,11 @@ require('packer').startup(function()
   use 'Pocco81/auto-save.nvim'
   use 'Shatur/neovim-ayu'
   use 'j-hui/fidget.nvim' 
+  use {
+      'saecki/crates.nvim',
+      tag = 'v0.3.0',
+      requires = { 'nvim-lua/plenary.nvim' },
+  }
 end)
 
 
@@ -44,3 +49,5 @@ require("plugins/todo-comments")
 require("plugins/eyeliner")
 require("plugins/neovim-ayu")
 require("plugins/fidget")
+require("plugins/crates")
+require("plugins/nvim-cmp")
