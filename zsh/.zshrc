@@ -32,7 +32,8 @@ export PATH="$PATH:/home/steve/.local/bin"
 # sudo dnf install -y wl-clipboard
 # For more information, see the `neovim` section in `installation.md`
 # https://github.com/SteveLauC/dotfiles/blob/main/installation.md#cli-tools
-export PATH="$PATH:/home/steve/.local/share/neovim/bin"
+export PATH="$PATH:/home/steve/.local/share/bob/nvim-bin"
+
 
 # Proxy
 export http_proxy=http://127.0.0.1:8890;
