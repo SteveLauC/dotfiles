@@ -12,6 +12,9 @@ left = ["mode", "spinner", "file-name", "position", "position-percentage" ,"spac
 center = []
 right = []
 
-
 [editor.cursor-shape]
 insert = "bar"
+
+[editor.lsp]
+display-inlay-hints = true
+
