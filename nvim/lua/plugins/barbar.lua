@@ -3,7 +3,8 @@ require'barbar'.setup {
   auto_hide = false,
   clickable = true,
   insert_at_end = false,
-  maximum_padding = 1,
+  maximum_padding = 0,
+  minimum_padding = 0,
   semantic_letters = true,
   tabpages = true,
 

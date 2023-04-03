@@ -32,6 +32,17 @@ require('packer').startup(function()
       tag = 'v0.3.0',
       requires = { 'nvim-lua/plenary.nvim' },
   }
+  use {
+      'nvim-treesitter/nvim-treesitter',
+      run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+      end,
+  }
+use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+}
 end)
 
 
@@ -51,3 +62,4 @@ require("plugins/neovim-ayu")
 require("plugins/fidget")
 require("plugins/crates")
 require("plugins/nvim-cmp")
+require("plugins/alpha-nvim")
