@@ -48,7 +48,6 @@ end)
 
 -- manually require every configuration under `plugins` cuz
 -- currently idk how the module system of lua works
-require("plugins/barbar")
 require("plugins/nvim-autopairs")
 require("plugins/telescope")
 require("plugins/lsp")
@@ -63,3 +62,4 @@ require("plugins/fidget")
 require("plugins/crates")
 require("plugins/nvim-cmp")
 require("plugins/alpha-nvim")
+require("plugins/barbar")
