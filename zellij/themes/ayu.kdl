@@ -1,0 +1,15 @@
+ themes {
+     ayu {
+        fg 255 170 51
+        bg 255 255 255
+        red 255 97 136
+        green 169 220 118
+        yellow 255 216 102
+        blue 252 152 103
+        magenta 255 121 198
+        orange 242 174 73
+        cyan 171 157 242
+        black 255 216 102
+        white 255 255 255
+    }
+}
