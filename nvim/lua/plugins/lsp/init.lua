@@ -37,13 +37,24 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 local lspconfig = require('lspconfig')
 
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'clangd', 'rust_analyzer' }
-for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup {
+lspconfig.clangd.setup {
     on_attach = on_attach,
     capabilities = capabilities,
-  }
-end
+}
+
+lspconfig.rust_analyzer.setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+ 
+    -- Use nightly toolchain to run fmt
+    settings = {
+        ["rust-analyzer"] = {
+            rustfmt = {
+                extraArgs = { "+nightly", },
+            },
+        }
+    }
+}
 
 -- lsp diagnosic icons
 local signs = {
@@ -51,6 +62,12 @@ local signs = {
     Warn= " ",
     Hint = " ",
     Info= " "
+
+    -- helix like diagnositc icons
+    -- Error = " ",
+    -- Warn= " ",
+    -- Hint = " ",
+    -- Info= " "
 }
 
 for type, icon in pairs(signs) do
