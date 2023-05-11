@@ -1,0 +1,11 @@
+skip_notify = true
+assume_yes = true
+disable = ["rustup", "pip3", "gnome_shell_extensions", "shell", "node", "vim"]
+
+[git]
+pull_predefined = false
+repos = [
+    "~/Documents/Notes",
+    "~/Documents/dotfiles"
+]
+
