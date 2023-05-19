@@ -2,11 +2,13 @@ com.discordapp.Discord
 com.getpostman.Postman
 com.github.GradienceTeam.Gradience
 com.github.ahrm.sioyek
+com.github.flxzt.rnote
 com.github.gmg137.netease-cloud-music-gtk
 com.github.johnfactotum.Foliate
 com.github.neithern.g4music
 com.github.phase1geo.minder
 com.github.tchx84.Flatseal
+com.github.tenderowl.frog
 com.google.Chrome
 com.obsproject.Studio
 com.qq.QQ
@@ -15,6 +17,7 @@ com.spotify.Client
 com.tencent.wemeet
 com.todoist.Todoist
 com.usebottles.bottles
+com.vixalien.sticky
 com.wps.Office
 io.github.shiftey.Desktop
 io.github.vikdevelop.SaveDesktop
@@ -25,6 +28,9 @@ org.chromium.Chromium
 org.gnome.Devhelp
 org.gnome.Extensions
 org.gnome.GHex
+org.gnome.Mines
+org.gnome.NetworkDisplays
+org.gnome.Nibbles
 org.gnome.PowerStats
 org.gnome.World.PikaBackup
 org.gnome.gThumb
@@ -35,4 +41,5 @@ org.onlyoffice.desktopeditors
 org.openshot.OpenShot
 org.telegram.desktop
 org.videolan.VLC
+org.yuzu_emu.yuzu
 xyz.diamondb.gtkcord4
