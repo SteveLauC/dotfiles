@@ -1,6 +1,6 @@
-skip_notify = true
+[misc]
 assume_yes = true
-disable = ["rustup", "pip3", "gnome_shell_extensions", "shell", "node", "vim"]
+disable = ["pip3", "gnome_shell_extensions", "node"]
 
 [git]
 pull_predefined = false

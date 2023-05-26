@@ -298,6 +298,11 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
     To run `Alacritty` through `x11`:
 
+    > This fixes the following issues under Wayland:
+    >
+    > 1. Client side decorations
+    > 2. [Rounded Corner Extension](https://github.com/yilozt/rounded-window-corners)
+
     ```
     [Desktop Entry]
     Type=Application
