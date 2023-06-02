@@ -1,11 +1,12 @@
 [misc]
 assume_yes = true
 disable = ["pip3", "gnome_shell_extensions", "node"]
+pre_sudo = true
+
 
 [git]
 pull_predefined = false
 repos = [
     "~/Documents/Notes",
-    "~/Documents/dotfiles"
+    "~/Documents/dotfiles",
 ]
-
