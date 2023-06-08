@@ -12,6 +12,7 @@ require('packer').startup(function()
   use { 'romgrk/barbar.nvim', requires = {'kyazdani42/nvim-web-devicons'}}
   use { "folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim" }
   use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
+  use { "folke/tokyonight.nvim" }
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -57,9 +58,10 @@ require("plugins/nvim-tree")
 require("plugins/lualine")
 require("plugins/todo-comments")
 require("plugins/eyeliner")
-require("plugins/neovim-ayu")
+-- require("plugins/neovim-ayu")
 require("plugins/fidget")
 require("plugins/crates")
 require("plugins/nvim-cmp")
 require("plugins/alpha-nvim")
 require("plugins/barbar")
+require("plugins/tokyonight")

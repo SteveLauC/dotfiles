@@ -190,64 +190,69 @@ font:
 
 # color section begin
 
-# Colors (Monokai Pro)
+# Colors (Monokai Pro)(light)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#ffffff'
+#     foreground: '#22476b'
+
+#   # Normal colors
+#   normal:
+#     black:   '#403E41'
+#     red:     '#FF6188'
+#     green:   '#A9DC76'
+#     yellow:  '#FFD866'
+#     blue:    '#FC9867'
+#     magenta: '#AB9DF2'
+#     cyan:    '#78DCE8'
+#     white:   '#FCFCFA'
+
+#   # Bright colors
+#   bright:
+#     black:   '#727072'
+#     red:     '#FF6188'
+#     green:   '#A9DC76'
+#     yellow:  '#FFD866'
+#     blue:    '#FC9867'
+#     magenta: '#AB9DF2'
+#     cyan:    '#78DCE8'
+#     white:   '#FCFCFA'
+
+# TokyoNight Alacritty Colors
 colors:
   # Default colors
   primary:
-    background: '#ffffff'
-    foreground: '#22476b'
+    background: '0x1a1b26'
+    foreground: '0xc0caf5'
 
   # Normal colors
   normal:
-    black:   '#403E41'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+    black:   '0x15161e'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xa9b1d6'
 
   # Bright colors
   bright:
-    black:   '#727072'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+    black:   '0x414868'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xc0caf5'
 
-# moonlight_ii_vscode(a nice dark theme)
-# colors:
-#   primary:
-#     background: '0x1e2030'
-#     foreground: '0x7f85a3'
-
-#   cursor:
-#     text:   '0x7f85a3'
-#     cursor: '0x808080'
-
-#   normal:
-#     black:   '0x444a73'
-#     red:     '0xff5370'
-#     green:   '0x4fd6be'
-#     yellow:  '0xffc777'
-#     blue:    '0x3e68d7'
-#     magenta: '0xfc7b7b'
-#     cyan:    '0x86e1fc'
-#     white:   '0xd0d0d0'
-
-#   bright:
-#     black:   '0x828bb8'
-#     red:     '0xff98a4'
-#     green:   '0xc3e88d'
-#     yellow:  '0xffc777'
-#     blue:    '0x82aaff'
-#     magenta: '0xff966c'
-#     cyan:    '0xb4f9f8'
-#     white:   '0x5f8787'
+  indexed_colors:
+    - { index: 16, color: '0xff9e64' }
+    - { index: 17, color: '0xdb4b4b' }
+    
+  
 
 # color section end
 
