@@ -27,7 +27,7 @@ require('packer').startup(function()
   use 'jinh0/eyeliner.nvim'
   use 'Pocco81/auto-save.nvim'
   use 'Shatur/neovim-ayu'
-  use 'j-hui/fidget.nvim' 
+  use {'j-hui/fidget.nvim', tag = 'legacy',} 
   use {
       'saecki/crates.nvim',
       tag = 'v0.3.0',
@@ -60,7 +60,7 @@ require("plugins/todo-comments")
 require("plugins/eyeliner")
 require("plugins/neovim-ayu")
 -- require("plugins/tokyonight")
-require("plugins/fidget")
+-- require("plugins/fidget")
 require("plugins/crates")
 require("plugins/nvim-cmp")
 require("plugins/alpha-nvim")

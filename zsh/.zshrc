@@ -52,6 +52,11 @@ export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 # Or you can use the following one if you don't have javac installed (e.g., JRE)
 # export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:/bin/java::")
 
+export LIBTORCH=~/.local/lib/libtorch
+export LIBTORCH_INCLUDE=~/.local/lib/libtorch
+export LIBTORCH_LIB=~/.local/lib/libtorch
+export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
+
 ################################################################################
 # User interactive configuration                                               #
 ################################################################################
