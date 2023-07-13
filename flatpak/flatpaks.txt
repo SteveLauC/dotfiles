@@ -19,10 +19,12 @@ com.todoist.Todoist
 com.usebottles.bottles
 com.vixalien.sticky
 com.wps.Office
+io.github.nate_xyz.Resonance
 io.github.shiftey.Desktop
 io.github.vikdevelop.SaveDesktop
 io.typora.Typora
 net.codeindustry.MasterPDFEditor
+net.xmind.XMind
 nl.hjdskes.gcolor3
 org.chromium.Chromium
 org.gnome.Devhelp
@@ -42,4 +44,5 @@ org.openshot.OpenShot
 org.telegram.desktop
 org.videolan.VLC
 org.yuzu_emu.yuzu
+us.zoom.Zoom
 xyz.diamondb.gtkcord4
