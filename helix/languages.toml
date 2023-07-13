@@ -7,3 +7,7 @@ indent = { tab-width = 4, unit = "    " }
 name = "c"
 # This tab-width does not seem to work at all.
 indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "rust"
+auto-format = true

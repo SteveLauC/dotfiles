@@ -17,4 +17,4 @@ insert = "bar"
 
 [editor.lsp]
 display-inlay-hints = true
-
+display-messages = true

@@ -1,8 +1,11 @@
 [misc]
 assume_yes = true
-disable = ["pip3", "gnome_shell_extensions", "node", "rustup"]
+disable = ["pip3", "gnome_shell_extensions", "node", "rustup", "containers"]
 pre_sudo = true
 
+# For debug
+remote_topgrades = ["192.168.3.21"]
+remote_topgrade_path = "/home/steve/.local/bin/topgrade"
 
 [git]
 pull_predefined = false
