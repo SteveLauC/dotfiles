@@ -8,4 +8,6 @@
 # registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 
 [build]
+# limit {# of CPUs} - 1 jobs at max
+jobs = -1
 rustflags = ["-C", "link-arg=-fuse-ld=mold"]
