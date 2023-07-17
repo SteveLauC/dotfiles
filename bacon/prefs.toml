@@ -1,0 +1,16 @@
+[export]
+enabled = false
+path = ".bacon-locations"
+line_format = "{kind} {path}:{line}:{column} {message}"
+
+[keybindings]
+c = "job:clippy"
+d = "job:doc-open"
+t = "job:test"
+r = "job:run"
+g = "scroll-to-top"
+
+shift-g = "scroll-to-bottom"
+k = "scroll-lines(-1)"
+j = "scroll-lines(1)"
+
