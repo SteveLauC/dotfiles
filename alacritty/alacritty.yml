@@ -14,14 +14,14 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
-  #
+  
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+  TERM: xterm-256color
 
 window:
   # Window dimensions (changes require restart)
@@ -92,7 +92,7 @@ window:
     #instance: Alacritty
     # General application class
     #general: Alacritty
-
+#fc9867
   # GTK theme variant (Linux/BSD only)
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark`
@@ -219,23 +219,6 @@ colors:
     cyan:    '#78DCE8'
     white:   '#FCFCFA'
 
-# TokyoNight Alacritty Colors
-# colors:
-#   # Default colors
-#   primary:
-#     background: '0x1a1b26'
-#     foreground: '0xc0caf5'
-
-#   # Normal colors
-#   normal:
-#     black:   '0x15161e'
-#     red:     '0xf7768e'
-#     green:   '0x9ece6a'
-#     yellow:  '0xe0af68'
-#     blue:    '0x7aa2f7'
-#     magenta: '0xbb9af7'
-#     cyan:    '0x7dcfff'
-#     white:   '0xa9b1d6'
 
 #   # Bright colors
 #   bright:
@@ -253,7 +236,6 @@ colors:
 #     - { index: 17, color: '0xdb4b4b' }
     
   
-
 # color section end
 
 # Bell

@@ -1,11 +1,11 @@
 local custom_ayu = require('lualine.themes.ayu')
-custom_ayu.normal.a.bg = '#fcdd67'
+custom_ayu.normal.a.bg = '#fc9867'
 custom_ayu.normal.a.fg = '#000000'
-custom_ayu.normal.b.bg = '#ffffff'
-custom_ayu.normal.c.bg = '#ffffff'
-custom_ayu.insert.b.bg = '#ffffff'
-custom_ayu.visual.b.bg = '#ffffff'
-custom_ayu.inactive.b.bg = '#ffffff'
+custom_ayu.normal.b.bg = '#fafafa'
+custom_ayu.normal.c.bg = '#fafafa'
+custom_ayu.insert.b.bg = '#fafafa'
+custom_ayu.visual.b.bg = '#fafafa'
+custom_ayu.inactive.b.bg = '#fafafa'
 
 require('lualine').setup {
   options = {
