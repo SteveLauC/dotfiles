@@ -1,6 +1,7 @@
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
+
 vim.api.nvim_set_keymap('n', '<space>e', '<cmd>lua vim.diagnostic.open_float()<CR>', opts)
 vim.api.nvim_set_keymap('n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
 vim.api.nvim_set_keymap('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
@@ -27,6 +28,8 @@ local on_attach = function(client, bufnr)
   vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
   vim.keymap.set('n', '<space>f', function() vim.lsp.buf.format { async = true } end, bufopts)
+  -- enable inlay hints 
+  vim.lsp.inlay_hint(0, true)
 end
 
 
@@ -58,16 +61,10 @@ lspconfig.rust_analyzer.setup {
 
 -- lsp diagnosic icons
 local signs = {
-    Error = " ",
-    Warn= " ",
-    Hint = " ",
-    Info= " "
-
-    -- helix like diagnositc icons
-    -- Error = " ",
-    -- Warn= " ",
-    -- Hint = " ",
-    -- Info= " "
+    Error = " ",
+    Warn= " ",
+    Hint = " ",
+    Info= " "
 }
 
 for type, icon in pairs(signs) do

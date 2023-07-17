@@ -40,10 +40,11 @@ require('packer').startup(function()
             ts_update()
       end,
   }
-use {
+  use {
     'goolord/alpha-nvim',
     requires = { 'nvim-tree/nvim-web-devicons' },
-}
+  }
+  use { 'lewis6991/gitsigns.nvim' }
 end)
 
 
@@ -55,13 +56,13 @@ require("plugins/lsp")
 require("plugins/trouble")
 require("plugins/kommentary")
 require("plugins/nvim-tree")
+require("plugins/neovim-ayu")
 require("plugins/lualine")
 require("plugins/todo-comments")
 require("plugins/eyeliner")
-require("plugins/neovim-ayu")
--- require("plugins/tokyonight")
--- require("plugins/fidget")
+require("plugins/fidget")
 require("plugins/crates")
 require("plugins/nvim-cmp")
 require("plugins/alpha-nvim")
 require("plugins/barbar")
+require("plugins/gitsigns")

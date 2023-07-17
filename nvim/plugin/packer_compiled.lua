@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   kommentary = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/kommentary",
@@ -173,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/steve/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "/home/steve/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

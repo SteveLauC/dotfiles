@@ -1,8 +1,16 @@
+local custom_ayu = require('lualine.themes.ayu')
+custom_ayu.normal.a.bg = '#fcdd67'
+custom_ayu.normal.a.fg = '#000000'
+custom_ayu.normal.b.bg = '#ffffff'
+custom_ayu.normal.c.bg = '#ffffff'
+custom_ayu.insert.b.bg = '#ffffff'
+custom_ayu.visual.b.bg = '#ffffff'
+custom_ayu.inactive.b.bg = '#ffffff'
 
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'tokyonight',
+    theme = custom_ayu,
     component_separators = '', section_separators = '',
     disabled_filetypes = {
       statusline = {},
@@ -18,23 +26,10 @@ require('lualine').setup {
   },
   sections = {
     lualine_a = {'mode'},
-    lualine_b = {'location', 'progress', 'encoding', 'fileformat', 'diff', 'diagnostics'},
+    lualine_b = {'location', 'branch', 'searchcount', 'fileformat'},
     lualine_c = {},
     lualine_x = {},
     lualine_y = {},
     lualine_z = {}
   },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {'filename'},
-    lualine_x = {'location'},
-    lualine_y = {},
-    lualine_z = {}
-  },
-
-  tabline = {},
-  winbar = {},
-  inactive_winbar = {},
-  extensions = {}
 }
