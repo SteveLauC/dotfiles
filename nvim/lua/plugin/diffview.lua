@@ -1,4 +1,4 @@
-return {{
-    "sindrets/diffview.nvim", config = function()
-    end
-}}
+return { {
+	"sindrets/diffview.nvim",
+	config = function() end,
+} }
