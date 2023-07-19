@@ -68,9 +68,9 @@ return {
 			-- lsp diagnosic icons
 			local signs = {
 				Error = " ",
-				Warn = " ",
-				Hint = " ",
-				Info = " ",
+				Warn = " ",
+				Hint = " ",
+				Info = " ",
 			}
 
 			for type, icon in pairs(signs) do

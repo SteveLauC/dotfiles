@@ -3,12 +3,17 @@ return {
 		"nvim-lualine/lualine.nvim",
 		config = function()
 			local custom_ayu = require("lualine.themes.ayu")
+            -- normal mode
 			custom_ayu.normal.a.bg = "#fc9867"
 			custom_ayu.normal.a.fg = "#000000"
+			custom_ayu.normal.b.fg = "#000000"
 			custom_ayu.normal.b.bg = "#fafafa"
 			custom_ayu.normal.c.bg = "#fafafa"
+            -- insert mode
 			custom_ayu.insert.b.bg = "#fafafa"
+            -- visual mode
 			custom_ayu.visual.b.bg = "#fafafa"
+            -- inactive mode
 			custom_ayu.inactive.b.bg = "#fafafa"
 
 			require("lualine").setup({
