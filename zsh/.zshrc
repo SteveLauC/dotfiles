@@ -34,9 +34,8 @@ export PATH="$PATH:/home/steve/.local/bin"
 # https://github.com/SteveLauC/dotfiles/blob/main/installation.md#cli-tools
 export PATH="$PATH:/home/steve/.local/share/bob/nvim-bin"
 
-# Use vim as the EDITOR
-export EDITOR="vim"
-
+# Use nvim as the EDITOR
+export EDITOR="nvim"
 
 # Proxy
 export http_proxy=http://127.0.0.1:8890;
