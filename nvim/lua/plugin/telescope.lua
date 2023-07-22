@@ -9,7 +9,7 @@ return {
 			vim.api.nvim_set_keymap("n", "<C-g>", "<cmd>Telescope live_grep<cr>", {})
 			-- you need to press ctrl-b-b to enable this cuz ctrl-b is the prefix key of tmux
 			vim.api.nvim_set_keymap("n", "<C-b>", "<cmd>Telescope buffers<cr>", {})
-			vim.api.nvim_set_keymap("n", "<C-s>", "<cmd>Telescope lsp_workspace_symbols<cr>", {})
+			vim.api.nvim_set_keymap("n", "<C-s>", "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", {})
 			vim.api.nvim_set_keymap("n", "<C-d>", "<cmd>Telescope diagnostics<cr>", {})
 
 			vim.api.nvim_set_keymap("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", {})

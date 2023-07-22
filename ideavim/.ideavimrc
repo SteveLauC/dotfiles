@@ -1,12 +1,20 @@
-" System clipboard synchronization
+" core
 set clipboard=unnamedplus
-" line number
 set rnu
 set nu
-" emulate the behavior of vim-commentary
 set commentary
-" search highlight
 set hls
+
+
 " Switch between tabs
 nmap <c-l> <Action>(NextTab)
 nmap <c-h> <Action>(PreviousTab)
+" Format Code: space + f
+nmap <space>f <Action>(ReformatCode)
+" Find Symbol: Ctrl + s
+nmap <c-s> <Action>(GotoSymbol)
+" Find File: Ctrl + f
+nmap <c-f> <Action>(GotoFile)
+" Find References: g + r
+nmap gr <Action>(ShowUsages)
+
