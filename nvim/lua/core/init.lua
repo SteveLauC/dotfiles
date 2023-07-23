@@ -7,6 +7,8 @@ vim.opt.tabstop = 4
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.cmdheight = 0
 vim.opt.bg = "light"
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 
 -- Autu-reload the buffer
 vim.opt.autoread = true
