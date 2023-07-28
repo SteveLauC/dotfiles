@@ -17,4 +17,3 @@ nmap <c-s> <Action>(GotoSymbol)
 nmap <c-f> <Action>(GotoFile)
 " Find References: g + r
 nmap gr <Action>(ShowUsages)
-
