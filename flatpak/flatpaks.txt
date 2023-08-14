@@ -9,6 +9,7 @@ com.github.neithern.g4music
 com.github.phase1geo.minder
 com.github.tchx84.Flatseal
 com.github.tenderowl.frog
+com.github.xournalpp.xournalpp
 com.google.Chrome
 com.obsproject.Studio
 com.qq.QQ
