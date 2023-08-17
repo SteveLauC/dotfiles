@@ -1,8 +1,6 @@
-com.discordapp.Discord
 com.getpostman.Postman
 com.github.GradienceTeam.Gradience
 com.github.ahrm.sioyek
-com.github.flxzt.rnote
 com.github.gmg137.netease-cloud-music-gtk
 com.github.johnfactotum.Foliate
 com.github.neithern.g4music
@@ -21,10 +19,8 @@ com.usebottles.bottles
 com.vixalien.sticky
 com.wps.Office
 io.github.nate_xyz.Resonance
-io.github.shiftey.Desktop
 io.github.vikdevelop.SaveDesktop
 io.typora.Typora
-net.codeindustry.MasterPDFEditor
 net.xmind.XMind
 nl.hjdskes.gcolor3
 org.chromium.Chromium
@@ -39,6 +35,7 @@ org.gnome.World.PikaBackup
 org.gnome.gThumb
 org.gnome.seahorse.Application
 org.kde.okular
+org.libreoffice.LibreOffice
 org.mozilla.Thunderbird
 org.onlyoffice.desktopeditors
 org.openshot.OpenShot
@@ -46,4 +43,3 @@ org.telegram.desktop
 org.videolan.VLC
 org.yuzu_emu.yuzu
 us.zoom.Zoom
-xyz.diamondb.gtkcord4

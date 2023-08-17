@@ -403,8 +403,8 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 |Navigation| Move to workspace on the left          | Ctrl + Super + L   | Yes (this keybinding comes from pop-shell)|
 |Navigation| Move window one workspace to the left  | Shift + Super + H  | Yes (this keybinding comes from pop-shell)|
 |Navigation| Move window one workspace to the right | Shift + Super + L  | Yes (this keybinding comes from pop-shell)|
-|Navigation| Switch to wrokspace 1                  | Ctrol + 1          | Yes                          |
-|Navigation| Switch to wrokspace 4                  | Ctrol + 4          | Yes                          |
+|Navigation| Switch to wrokspace 1                  | Alt + 1            | Yes                          |
+|Navigation| Switch to wrokspace 4                  | Alt + 4            | Yes                          |
 |Typing    | Switch to next input source            | Ctrl + Space       | Yes                          |
 |Windows   | Close window                           | Super + Q          | Yes                          |
 |Windows   | Maximize window                        | Super + M          | Yes                          |
