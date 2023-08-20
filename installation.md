@@ -108,6 +108,7 @@
 16. pup
   
     ```shell
+    sudo dnf -y install openssl-devel 
     cargo install --git https://github.com/SteveLauC/pup
     ```
 
@@ -392,7 +393,14 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
     sudo dnf install ulauncher
     ```
 
-    NOTE: u need to disable it in `yilozt/rounded-window-corners`.
+    > NOTE: u need to disable it in `yilozt/rounded-window-corners` by adding 
+    > `ulauncher` (not `ulauncher-toggle`) to the blacklist.
+    >
+    > Under Wayland, you need to add a custom keybinding in GNOME Settings:
+    > 
+    > ```
+    > ulauncher-toggle ctrl-super-space
+    > ```
     
 
 ## GNOME Customized Shortcut
