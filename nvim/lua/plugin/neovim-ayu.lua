@@ -9,8 +9,14 @@ return {
 			colors.generate()
 			ayu.setup({
 				overrides = function()
-					return { Comment = { fg = colors.comment } }
+					return { 
+                        -- change the bg to pure white
+                        Normal = { bg = colors.white, fg = '#272b30' },
+                        SignColumn = { bg = colors.white },
+                        Comment = { fg = colors.comment }
+                    }
 				end,
+
 			})
 
 			-- apply the theme

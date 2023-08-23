@@ -8,19 +8,19 @@ return {
 			custom_ayu.normal.a.bg = "#fc9867"
 			custom_ayu.normal.a.fg = "#403e41"
 
-			custom_ayu.normal.b.bg = "#fafafa"
+			custom_ayu.normal.b.bg = "#ffffff"
 			custom_ayu.normal.b.fg = "#403e41"
 
-			custom_ayu.normal.c.bg = "#fafafa"
+			custom_ayu.normal.c.bg = "#ffffff"
 
 			-- insert mode
-			custom_ayu.insert.b.bg = "#fafafa"
+			custom_ayu.insert.b.bg = "#ffffff"
 
 			-- visual mode
-			custom_ayu.visual.b.bg = "#fafafa"
+			custom_ayu.visual.b.bg = "#ffffff"
 
 			-- inactive mode
-			custom_ayu.inactive.b.bg = "#fafafa"
+			custom_ayu.inactive.b.bg = "#ffffff"
 
 			require("lualine").setup({
 				options = {
