@@ -1,5 +1,6 @@
 [v1]
-"bob-nvim 2.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["bob"]
+"bob-nvim 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bob"]
+"cargo-msrv 0.15.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-msrv"]
 "cargo-update 13.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = [
     "cargo-install-update",
     "cargo-install-update-config",
@@ -8,4 +9,4 @@
 "ouch 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["ouch"]
 "pup 0.1.1 (git+https://github.com/SteveLauC/pup#f2238677594fdd58281947abbcc4df82008bf9cf)" = ["pup"]
 "starship 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship"]
-"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#dc78b00c3cf94849316ded8335aa1566e5c29ce3)" = ["topgrade"]
+"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#ce234bdb59525cc99dbdaadb1bf73cc009cb7a27)" = ["topgrade"]

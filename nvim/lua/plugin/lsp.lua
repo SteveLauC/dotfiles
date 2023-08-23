@@ -3,9 +3,7 @@ return {
 		"neovim/nvim-lspconfig",
 		dependencies = { "cmp-nvim-lsp" },
 		config = function()
-			-- inlay hint color
-            vim.cmd([[highlight LspInlayHint guifg=#ffc101]])
-			vim.cmd([[highlight LspInlayHint guibg=#fcf2e3]])
+
 			-- Mappings.
 			-- See `:help vim.diagnostic.*` for documentation on any of the below functions
 			local opts = { noremap = true, silent = true }
