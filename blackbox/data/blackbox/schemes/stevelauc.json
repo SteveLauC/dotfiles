@@ -1,0 +1,26 @@
+{
+    "name": "SteveLauC",
+    "comment": "A great light theme",
+    "use-theme-colors": false,
+    "foreground-color": "#22476b",
+    "background-color": "#ffffff",
+    "palette": [
+      "#403E41",
+      "#ff6188",
+      "#a9dc76",
+      "#ffd866",
+      "#fc9867",
+      "#ab9df2",
+      "#78dce8",
+      "#fcfcfa",
+
+      "#727072",
+      "#ff6188",
+      "#a9dc76",
+      "#ffd866",
+      "#fc9867",
+      "#ab9df2",
+      "#78dce8",
+      "#fcfcfa"
+    ]
+}
