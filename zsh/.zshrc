@@ -38,8 +38,8 @@ export PATH="$PATH:/home/steve/.local/share/bob/nvim-bin"
 export EDITOR="nvim"
 
 # Proxy
-export http_proxy=http://127.0.0.1:8890;
-export https_proxy=http://127.0.0.1:8890;
+export http_proxy=http://127.0.0.1:42775;
+export https_proxy=http://127.0.0.1:42775;
 
 # use `most` as the pager (syntax highlight for `man`)
 export PAGER="most -c"
