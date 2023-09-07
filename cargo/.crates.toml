@@ -15,4 +15,4 @@
 "pup 0.1.1 (git+https://github.com/SteveLauC/pup#f2238677594fdd58281947abbcc4df82008bf9cf)" = ["pup"]
 "starship 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship"]
 "tokei 12.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["tokei"]
-"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#ce234bdb59525cc99dbdaadb1bf73cc009cb7a27)" = ["topgrade"]
+"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#b814dd824fed8df3d0784d71dee1c459d94e3825)" = ["topgrade"]
