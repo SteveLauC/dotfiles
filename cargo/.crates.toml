@@ -2,7 +2,7 @@
 "bacon 2.12.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["bacon"]
 "bob-nvim 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bob"]
 "cargo-bloat 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-bloat"]
-"cargo-expand 1.0.68 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-expand"]
+"cargo-expand 1.0.70 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-expand"]
 "cargo-msrv 0.15.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-msrv"]
 "cargo-update 13.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = [
     "cargo-install-update",
