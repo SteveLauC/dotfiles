@@ -34,6 +34,9 @@ export PATH="$PATH:/home/steve/.local/bin"
 # https://github.com/SteveLauC/dotfiles/blob/main/installation.md#cli-tools
 export PATH="$PATH:/home/steve/.local/share/bob/nvim-bin"
 
+# Path for Golang
+export PATH=$PATH:/usr/local/go/bin
+
 # Use nvim as the EDITOR
 export EDITOR="nvim"
 
