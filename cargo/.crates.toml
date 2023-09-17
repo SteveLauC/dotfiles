@@ -1,5 +1,5 @@
 [v1]
-"bacon 2.12.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["bacon"]
+"bacon 2.13.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bacon"]
 "bob-nvim 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bob"]
 "cargo-bloat 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-bloat"]
 "cargo-expand 1.0.70 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-expand"]
@@ -16,4 +16,4 @@
 "pup 0.1.1 (git+https://github.com/SteveLauC/pup#f2238677594fdd58281947abbcc4df82008bf9cf)" = ["pup"]
 "starship 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship"]
 "tokei 12.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["tokei"]
-"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#b814dd824fed8df3d0784d71dee1c459d94e3825)" = ["topgrade"]
+"topgrade 12.0.2 (git+https://github.com/topgrade-rs/topgrade#4dd1c13bd8065dfd791cb31e282c7c384dfff008)" = ["topgrade"]
