@@ -13,6 +13,7 @@
 "du-dust 0.8.6 (registry+https://github.com/rust-lang/crates.io-index)" = ["dust"]
 "just 1.14.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["just"]
 "ouch 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["ouch"]
+"pqrs 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["pqrs"]
 "pup 0.1.1 (git+https://github.com/SteveLauC/pup#f2238677594fdd58281947abbcc4df82008bf9cf)" = ["pup"]
 "starship 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship"]
 "tokei 12.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["tokei"]
