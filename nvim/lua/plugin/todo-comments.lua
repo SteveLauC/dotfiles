@@ -18,6 +18,7 @@ return {
 					WARN = { icon = " ", color = "warning", alt = { "WARNING", "XXX" } },
 					PERF = { icon = " ", alt = { "OPTIM", "PERFORMANCE", "OPTIMIZE" } },
 					NOTE = { icon = " ", color = "hint", alt = { "INFO" } },
+					STEVE = { icon = "󱞁 ", color = "hint", alt = { "Steve", "steve" } },
 				},
 				merge_keywords = true, -- when true, custom keywords will be merged with the defaults
 				-- highlighting of the line containing the todo comment
