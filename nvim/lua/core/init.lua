@@ -21,3 +21,4 @@ vim.api.nvim_create_autocmd(
 require("core.lazy")
 require("core.color")
 require("core.keymaps")
+require("core.neovide")
