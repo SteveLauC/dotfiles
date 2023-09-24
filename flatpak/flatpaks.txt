@@ -1,3 +1,4 @@
+com.baidu.NetDisk
 com.getpostman.Postman
 com.github.GradienceTeam.Gradience
 com.github.ahrm.sioyek
@@ -11,16 +12,21 @@ com.github.xournalpp.xournalpp
 com.google.Chrome
 com.obsproject.Studio
 com.qq.QQ
+com.raggesilver.BlackBox
 com.slack.Slack
 com.spotify.Client
 com.tencent.wemeet
 com.todoist.Todoist
 com.usebottles.bottles
+com.valvesoftware.Steam
 com.vixalien.sticky
 com.wps.Office
+hu.kramo.Cartridges
+io.github.alainm23.planify
 io.github.nate_xyz.Resonance
 io.github.vikdevelop.SaveDesktop
 io.typora.Typora
+net.lutris.Lutris
 net.xmind.XMind
 nl.hjdskes.gcolor3
 org.chromium.Chromium
@@ -41,5 +47,6 @@ org.onlyoffice.desktopeditors
 org.openshot.OpenShot
 org.telegram.desktop
 org.videolan.VLC
+org.wezfurlong.wezterm
 org.yuzu_emu.yuzu
 us.zoom.Zoom
