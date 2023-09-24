@@ -179,7 +179,7 @@
        > `bob` is a package manager for `neovim`
 
        ```shell
-       $ cargo install bob
+       $ cargo install bob-nvim
        $ bob install xxx
        ```
 
