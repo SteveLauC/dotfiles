@@ -41,8 +41,9 @@ export PATH=$PATH:/usr/local/go/bin
 export EDITOR="nvim"
 
 # Proxy
-export http_proxy=http://127.0.0.1:42775;
-export https_proxy=http://127.0.0.1:42775;
+export http_proxy=http://127.0.0.1:63789;
+export https_proxy=http://127.0.0.1:63789;
+export all_proxy=socks5://127.0.0.1:63789
 
 # use `most` as the pager (syntax highlight for `man`)
 export PAGER="most -c"
