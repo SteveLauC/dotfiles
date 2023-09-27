@@ -36,6 +36,8 @@ export PATH="$PATH:/home/steve/.local/share/bob/nvim-bin"
 
 # Path for Golang
 export PATH=$PATH:/usr/local/go/bin
+# Path for Spicetify
+export PATH=$PATH:/home/steve/.spicetify
 
 # Use nvim as the EDITOR
 export EDITOR="nvim"
