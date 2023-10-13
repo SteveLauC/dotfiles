@@ -5,7 +5,7 @@ pre_sudo = true
 
 [git]
 pull_predefined = false
-repos = [
+pull_only_repos = [
     "~/Documents/Notes",
     "~/Documents/dotfiles",
 ]
