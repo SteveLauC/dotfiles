@@ -1,3 +1,5 @@
+" Use IdeaVim: track action Ids to extract the ID of an action
+
 " core
 set clipboard=unnamedplus
 set rnu
@@ -5,15 +7,37 @@ set nu
 set commentary
 set hls
 
+" Set leader to the space key
+let mapleader = "\<SPACE>"
 
-" Switch between tabs
+" Switch between continuous tabs, it won't across between splits
+" To move between splits, use the vim keymap (ctrl-w <h/j/k/l>)
 nmap <c-l> <Action>(NextTab)
 nmap <c-h> <Action>(PreviousTab)
-" Format Code: space + f
-nmap <space>f <Action>(ReformatCode)
+
 " Find Symbol: Ctrl + s
 nmap <c-s> <Action>(GotoSymbol)
+
 " Find File: Ctrl + f
+" press `enter` to open the chosen in the current split
+" press `shift enter` to open the chosen in the newly created right split
 nmap <c-f> <Action>(GotoFile)
+
+" Move the current active tab to a **new** right split,
+" will only work if the current split has at least 2 tabs
+nmap <c-w>L <Action>(MoveTabRight)
+
+" By default, `ctrl-w c` will close the current split, which is not consistent
+" with vim, we correct it here
+nmap <c-w>c <Action>(CloseContent)
+
+
+" Format Code: space + f
+nmap <Leader>f <Action>(ReformatCode)
+
+" Rename an entry
+nmap <Leader>r <Action>(RenameElement)
+
+
 " Find References: g + r
 nmap gr <Action>(ShowUsages)
