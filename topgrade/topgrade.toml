@@ -1,6 +1,6 @@
 [misc]
 assume_yes = true
-disable = ["pip3", "gnome_shell_extensions", "node", "rustup", "containers", "firmware"]
+disable = ["node", "firmware"]
 pre_sudo = true
 
 [git]
