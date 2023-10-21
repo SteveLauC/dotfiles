@@ -27,11 +27,6 @@ nmap <c-f> <Action>(GotoFile)
 " will only work if the current split has at least 2 tabs
 nmap <c-w>L <Action>(MoveTabRight)
 
-" By default, `ctrl-w c` will close the current split, which is not consistent
-" with vim, we correct it here
-nmap <c-w>c <Action>(CloseContent)
-
-
 " Format Code: space + f
 nmap <Leader>f <Action>(ReformatCode)
 
