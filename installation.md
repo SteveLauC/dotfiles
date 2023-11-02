@@ -439,6 +439,26 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
    ```
 
+   To use the sjtu mirror:
+
+   ```shell
+   sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
+   ```
+
+   To use the official repo:
+
+   ```shell
+   sudo flatpak remote-modify flathub --url=https://flathub.org/repo/flathub.flatpakrepo
+   ```
+
+   > Sometimes, modifying the url won't work, you need to reset it:
+   >
+   > ```sh
+   > # --force argument won't ask you to delete the apps installed from that source
+   > $ remote-delete --force flathub 
+   > $ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   > ```
+
 ## Languages
 
 1. Rust
