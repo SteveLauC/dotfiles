@@ -20,7 +20,6 @@ com.valvesoftware.Steam
 com.vixalien.sticky
 com.wps.Office
 hu.kramo.Cartridges
-io.github.Fndroid.clash_for_windows
 io.github.nate_xyz.Resonance
 io.github.vikdevelop.SaveDesktop
 io.gitlab.gregorni.Letterpress
@@ -50,4 +49,5 @@ org.openshot.OpenShot
 org.telegram.desktop
 org.videolan.VLC
 org.yuzu_emu.yuzu
+org.zulip.Zulip
 us.zoom.Zoom
