@@ -405,20 +405,18 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
 ## GNOME Customized Shortcut
 
-| Category | Action                                 | Shortcut           | Still working with pop-shell |
-|----------|----------------------------------------|--------------------|------------------------------|
-|Navigation| Move to workspace on the left          | Ctrl + Super + H   | Yes (this keybinding comes from pop-shell)|
-|Navigation| Move to workspace on the left          | Ctrl + Super + L   | Yes (this keybinding comes from pop-shell)|
-|Navigation| Move window one workspace to the left  | Shift + Super + H  | Yes (this keybinding comes from pop-shell)|
-|Navigation| Move window one workspace to the right | Shift + Super + L  | Yes (this keybinding comes from pop-shell)|
-|Navigation| Switch to wrokspace 1                  | Alt + 1            | Yes                          |
-|Navigation| Switch to wrokspace 4                  | Alt + 4            | Yes                          |
-|Typing    | Switch to next input source            | Ctrl + Space       | Yes                          |
-|Windows   | Close window                           | Super + Q          | Yes                          |
-|Windows   | Maximize window                        | Super + M          | Yes                          |
-|Windows   | Restore window                         | Super + N          | Yes                          |
-|Windows   | View split on left                     | Ctrl + Super + J   | Yes(but u don't need this with a wm) |
-|Windows   | View split on right                    | Ctrl + Super + K   | No (but u don't need this with a wm) |
+| Category | Action                                 | Shortcut           |
+|----------|----------------------------------------|--------------------|
+|Navigation| Move to workspace on the left          | Ctrl + Super + P   |
+|Navigation| Move to workspace on the right         | Ctrl + Super + N   |
+|Navigation| Move window one workspace to the left  | Shift + Super + P  |
+|Navigation| Move window one workspace to the right | Shift + Super + N  |
+|Navigation| Switch to wrokspace 1                  | Ctrl + Super + 1   |
+|Navigation| Switch to wrokspace 4                  | Ctrl + Super + 4   |
+|Typing    | Switch to next input source            | Ctrl + Space       |
+|Windows   | Close window                           | Super + Q          |
+|Windows   | Maximize window                        | Super + M          |
+|Windows   | Restore window                         | Super + N          |
 
 > [pop-shell keybingdings manual](https://support.system76.com/articles/pop-keyboard-shortcuts/)
 
