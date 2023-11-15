@@ -8,6 +8,7 @@
 * [Languages](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#languages)
 * [Libraries](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#libraries)
 * [Mirrors](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#mirrors)
+* [Fedora Config](https://github.com/SteveLauC/dotfiles/blob/main/installation.md#fedora-config)
 
 ## CLI Tools
 
@@ -542,4 +543,13 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 
    # RUSTUP_UPDATE_ROOT, used to update `rustup`
    export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+   ```
+
+## Fedora Config
+
+1. To disable swap
+
+   ```sh
+   $ sudo swapoff -a
+   $ sudo dnf remove zram-generator-defaults
    ```
