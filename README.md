@@ -1,9 +1,5 @@
 Steve's dotfiles👀
 
-## Desktop🤯
+## Desktop
 
-![:D](https://github.com/SteveLauC/pic/blob/main/Screenshot%20from%202023-01-01%2019-04-37.png)
-
-## Installation✍️
-
-See [installation.md](https://github.com/SteveLauC/dotfiles/blob/main/installation.md)
+![:D](https://github.com/SteveLauC/pic/blob/main/Screenshot%20from%202023-11-17%2018-08-53.png)
