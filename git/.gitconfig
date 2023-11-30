@@ -4,6 +4,11 @@
 [credential]
 	# To install `git-credential-libsecret`, use:
 	# sudo dnf -y install git-credential-libsecret
-	helper = /usr/libexec/git-core/git-credential-libsecret
+
+    # Fedora
+    # helper = /usr/libexec/git-core/git-credential-libsecret
+
+    # Debian
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 [core]
 	excludesFile = ~/Documents/dotfiles/git/.gitignore

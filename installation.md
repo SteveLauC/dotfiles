@@ -93,6 +93,7 @@
 
     ```shell
     sudo dnf -y install most
+    sudo apt install most
     ```
 14. fish
     
@@ -123,6 +124,11 @@
 
     ```shell
     sudo dnf -y install git-credential-libsecret
+    ```
+
+    ```shell
+    sudo apt install libsecret-1-0 libsecret-1-dev
+    sudo make --directory=/usr/share/doc/git/contrib/credential/libsecret
     ```
 
 19. JDK
