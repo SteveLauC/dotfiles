@@ -1,3 +1,4 @@
+app.drey.Biblioteca
 com.getpostman.Postman
 com.github.GradienceTeam.Gradience
 com.github.ahrm.sioyek
@@ -12,7 +13,6 @@ com.google.Chrome
 com.obsproject.Studio
 com.qq.QQ
 com.slack.Slack
-com.spotify.Client
 com.tencent.wemeet
 com.todoist.Todoist
 com.usebottles.bottles
