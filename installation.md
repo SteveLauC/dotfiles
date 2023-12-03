@@ -111,6 +111,7 @@
   
     ```shell
     sudo dnf -y install openssl-devel 
+    sudo apt -y install libssl-dev
     cargo install --git https://github.com/SteveLauC/pup
     ```
 
