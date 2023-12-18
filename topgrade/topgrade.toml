@@ -2,6 +2,7 @@
 assume_yes = true
 disable = ["node", "firmware"]
 pre_sudo = true
+cleanup = true
 
 [git]
 pull_predefined = false
