@@ -12,3 +12,6 @@
 	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 [core]
 	excludesFile = ~/Documents/dotfiles/git/.gitignore
+
+[diff]
+external = difft
