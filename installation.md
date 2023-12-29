@@ -442,8 +442,10 @@ To install flatpak apps in bulk, take a look at the [`README.md` doc under `flat
 1. add remote source:
    
    ```shell
-   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
    ```
+
+   > the `--user` option is needed if you want to do user installation.
 
    To use the sjtu mirror:
 
