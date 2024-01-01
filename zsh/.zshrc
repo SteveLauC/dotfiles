@@ -100,6 +100,11 @@ alias gs-restart='killall -3 gnome-shell'
 # use `open` instead of `xdg-open`
 alias open='xdg-open'
 
+# Always use `flatpak` in user mode
+#
+# `flatpak -h` does not mention you can do this, but it will work
+alias flatpak='flatpak --user'
+
 
 ################################################################################
 # scripts                                                                      #
