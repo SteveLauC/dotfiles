@@ -2,6 +2,8 @@
 
 unzip CascadiaCode
 sudo cp -r ~/Documents/dotfiles/font/CascadiaCode /usr/share/fonts
+rm -r CascadiaCode
+
 # rebuild the font cache
 sudo fc-cache -fv
 
