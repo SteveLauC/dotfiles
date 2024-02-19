@@ -13,6 +13,7 @@ com.google.Chrome
 com.obsproject.Studio
 com.qq.QQ
 com.slack.Slack
+com.spotify.Client
 com.tencent.wemeet
 com.todoist.Todoist
 com.usebottles.bottles
@@ -23,6 +24,7 @@ hu.kramo.Cartridges
 io.github.nate_xyz.Resonance
 io.github.vikdevelop.SaveDesktop
 io.gitlab.gregorni.Letterpress
+io.httpie.Httpie
 io.missioncenter.MissionCenter
 io.typora.Typora
 net.agalwood.Motrix
