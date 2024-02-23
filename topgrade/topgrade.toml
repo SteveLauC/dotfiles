@@ -1,6 +1,6 @@
 [misc]
 assume_yes = true
-disable = ["node", "firmware"]
+disable = ["node", "firmware", "helix"]
 pre_sudo = true
 cleanup = true
 
