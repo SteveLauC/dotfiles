@@ -118,8 +118,6 @@ alias dev='bash ~/Documents/dotfiles/scripts/dev.sh'
 # Tool startup                                                                 #
 ################################################################################
 
-# run starship
 eval "$(starship init zsh)"
-
-# run zoxide
 eval "$(zoxide init zsh)"
+eval "$(atuin init zsh)"
