@@ -120,4 +120,4 @@ alias dev='bash ~/Documents/dotfiles/scripts/dev.sh'
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
