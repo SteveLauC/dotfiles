@@ -5,7 +5,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(
-	git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
@@ -70,6 +69,12 @@ export LIBTORCH=~/.local/lib/libtorch
 export LIBTORCH_INCLUDE=~/.local/lib/libtorch
 export LIBTORCH_LIB=~/.local/lib/libtorch
 export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
+
+
+# Use atuin to store my zsh history, so the original storage isn't that needed.
+export HISTSIZE=20
+export SAVEHIST=$HISTSIZE
+
 
 ################################################################################
 # User interactive configuration                                               #
