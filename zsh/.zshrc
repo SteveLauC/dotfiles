@@ -40,9 +40,9 @@ export PATH=$PATH:/usr/local/go/bin
 export EDITOR="nvim"
 
 # Proxy
-export http_proxy=http://127.0.0.1:8890;
-export https_proxy=http://127.0.0.1:8890;
-export all_proxy=socks5://127.0.0.1:8891;
+export http_proxy=http://127.0.0.1:46555;
+export https_proxy=http://127.0.0.1:46555;
+export all_proxy=socks5://127.0.0.1:36197;
 
 # less colours -- since man uses less as a pager, this gives us
 # coloured man pages
