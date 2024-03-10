@@ -70,9 +70,7 @@ export LIBTORCH_INCLUDE=~/.local/lib/libtorch
 export LIBTORCH_LIB=~/.local/lib/libtorch
 export LD_LIBRARY_PATH=${LIBTORCH}/lib:$LD_LIBRARY_PATH
 
-
-# Use atuin to store my zsh history, so the original storage isn't that needed.
-export HISTSIZE=20
+export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
 
 
@@ -125,4 +123,3 @@ alias dev='bash ~/Documents/dotfiles/scripts/dev.sh'
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(atuin init zsh --disable-up-arrow)"
